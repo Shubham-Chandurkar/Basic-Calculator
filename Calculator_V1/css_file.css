@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.top {
+  color: white;
+  font-size: large;
+}
+
+.wrapper {
+  border-block: 2px;
+  border-block-color: white;
+}
+
+.display {
+  background-color: white;
+  padding: 15px;
+  width: 250px;
+  text-align: right;
+  font-size: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+button {
+  padding: 10px;
+  width: 68px;
+  height: 42px;
+  margin-top: 10px;
+  background-color: gray;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  background-color: #737373;
+}
+
+.instruction {
+  color: azure;
+}

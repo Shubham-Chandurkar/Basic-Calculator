@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="css_file.css" type="text/css" />
+  </head>
+  <body>
+    <center>
+      <div class="top">
+        <h2>
+          <i><b>Basic Calculator</b></i>
+        </h2>
+      </div>
+      <div class="wrapper">
+        <div class="main">
+          <div class="display">
+            <p id="output">0</p>
+          </div>
+          <div class="first_row">
+            <button id="r1-1" style="width: 210px;" onclick="clearOutput()">
+              CE
+            </button>
+            <button id="r1-3" onclick="fordisplay('/'),checkpro()">/</button>
+          </div>
+          <div class="second-row">
+            <button id="r2-1" onclick="fordisplay('7'),check()">7</button>
+            <button id="r2-2" onclick="fordisplay('8'),check()">8</button>
+            <button id="r2-3" onclick="fordisplay('9'),check()">9</button>
+            <button id="r2-4" onclick="fordisplay('*'),checkpro()">x</button>
+          </div>
+          <div class="third-row">
+            <button id="r3-1" onclick="fordisplay('4'),check()">4</button>
+            <button id="r3-2" onclick="fordisplay('5'),check()">5</button>
+            <button id="r3-3" onclick="fordisplay('6'),check()">6</button>
+            <button id="r3-4" onclick="fordisplay('-'),checkpro()">-</button>
+          </div>
+          <div class="fourth-row">
+            <button id="r4-1" onclick="fordisplay('1'),check()">1</button>
+            <button id="r4-2" onclick="fordisplay('2'),check()">2</button>
+            <button id="r4-3" onclick="fordisplay('3'),check()">3</button>
+            <button id="r4-4" onclick="fordisplay('+'),checkpro()">+</button>
+          </div>
+          <div class="fifth-row">
+            <button id="r5-1" onclick="fordisplay('.')">.</button>
+            <button id="r5-2" onclick="fordisplay('0'),check()">0</button>
+            <button id="r5-3" style="width: 140px;" onclick="solve()">
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="instruction">
+        <br /><br />
+        <br /><br />
+        <marquee direction="right" color="white"
+          >Correct way to give input:- | Operand Operator Operand |</marquee
+        >
+      </div>
+    </center>
+    <script src="javascript_file.js"></script>
+  </body>
+</html>
