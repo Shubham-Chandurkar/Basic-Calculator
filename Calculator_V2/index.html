@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+    <div class="container center">
+        <table>
+            <caption>Simple<span id="span">Calculator</span></caption>
+            <tr>
+                <td colspan="4" id="outputrow">
+                    <p id="output">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="clearme()">AC</button>
+                </td>
+                <td>
+                    <button type="button" onclick="backone()">C</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('%')">%</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('/')">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="createqu('7')">7</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('8')">8</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('9')">9</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('*')">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="createqu('4')">4</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('5')">5</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('6')">6</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('-')">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="createqu('1')">1</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('2')">2</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('3')">3</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('+')">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" onclick="createqu('0')">0</button>
+                </td>
+                <td>
+                    <button type="button" onclick="createqu('.')">.</button>
+                </td>
+                <td>
+                    <button type="button" onclick="calculate()">=</button>
+                </td>
+            </tr>
+
+
+        </table>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
