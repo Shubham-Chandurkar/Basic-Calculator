@@ -3,7 +3,5 @@ A basic calculator that performs simple arithmetic operations like addition, sub
 
 Version1 Output:
 ![](/Calculator_V1/output.png)
-
-
 Version2 Output:
 ![](/Calculator_V2/output.png)
